@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Furry Entferner",
+  "description": "Ein Addon was diese schrecklichen Tier Fetischisten ein für alle mal aus jeder Website dieser Welt löscht",
+  "homepage_url": "https://kekmania11.wixsite.com/website",
+  "version": "69.420",
+  "icons": {
+    "48": "icons/icon.png",
+    "96": "icons/icon@2x.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["./emojiMap.js", "./substitute.js"]
+    }
+  ]
+}
